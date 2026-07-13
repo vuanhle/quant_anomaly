@@ -1,6 +1,9 @@
 name: Build Bat Xat 2 VN-2000 GIS products
 
 on:
+  push:
+    branches:
+      - 'tmp/bat-xat-2-vn2000-20260713'
   pull_request:
     branches: [main]
     paths:
